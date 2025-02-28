@@ -1,0 +1,9 @@
+.box {
+    border: 5px solid black;
+}
+
+.box_holder {
+    display: grid;
+    grid-template-columns: 290px 290px;
+    gap: 30px;
+}

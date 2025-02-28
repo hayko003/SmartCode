@@ -1,0 +1,16 @@
+.ylwBtn {
+    padding: 12px 35px;
+    background-color: #f3b01b;
+    color: white;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+}
+
+.ylwBtn:hover {
+    background-color: white;
+    outline: 2px solid #f3b01b;
+    color: black;
+}

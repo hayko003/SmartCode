@@ -1,0 +1,29 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+}
+li {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+}
+
+li::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 2px;
+    background-color: #f3b01b;
+    width: 0;
+    transition: all .4s;
+}
+
+a:hover::after {
+    width: 100%;
+}

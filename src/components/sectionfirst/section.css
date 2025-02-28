@@ -1,0 +1,50 @@
+.section_first {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.section_first-IMG {
+    display: flex;
+}
+
+span {
+    font-weight: 400;
+}
+
+.section_h1 {
+    font-weight: 200;
+}
+
+.vdn_btn-wrapper {
+    position: relative;
+
+}
+
+.vdn_btn {
+    padding: 12px 35px;
+    color: black;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    background-color: white;
+}
+
+.vdn_btn:hover {
+    color: #f3b01b;
+}
+
+.vdn_btn-icon {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    z-index: 99;
+    width: 30px;
+}
+
+.btn_wrapper {
+    display: flex;
+    gap: 50px;
+}
