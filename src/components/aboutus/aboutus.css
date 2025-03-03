@@ -1,0 +1,19 @@
+.about_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.text_about {
+    margin-top: 50px;
+    color: rgba(131, 131, 131, 0.878);
+    line-height: 25px;
+    font-size: 18px;
+
+}
+
+.text_wrapper {
+    display: flex;
+}

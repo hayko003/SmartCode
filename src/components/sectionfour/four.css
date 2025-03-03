@@ -1,0 +1,10 @@
+.four_section {
+    margin-top: 150px;
+    text-align: center;
+}
+.four_box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}

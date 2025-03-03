@@ -1,17 +1,27 @@
 import SecondBox from "../secondbox/secondbox";
-import "../secondbox/secondbox.css"
+import "../sectionsecond/second.css";
 function SectionSecond(props) {
+
   return (
-    <div className="container">
+    <div>
       <div className="section_second">
-        <h1>Ծրագրավորման <span>դասընթացներ</span></h1>
+        <h1>
+          Ծրագրավորման <span>դասընթացներ</span>
+        </h1>
         <p>Ծրագրավորման դասընթացներ նախատեսված սկսնակների համար</p>
-      </div>
-      <div className="box_holder">
-        <SecondBox data={props.data}/>
-        <SecondBox data={props.data}/>
-        <SecondBox data={props.data}/>
-        <SecondBox data={props.data}/>
+
+        <div className="box_holder">
+          <div className="box-wrapper">
+            {props.data.map((elem) => {
+              return <SecondBox elem={elem} />;
+            })}
+          </div>
+        <img
+          className="box_large-img"
+          src="https://smartcode.am/public/image/per4.svg"
+          alt=""
+        />
+        </div>
       </div>
     </div>
   );
